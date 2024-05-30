@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	background: url(img/mandarun.jpg);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 1000px;
+	background-color: rgb(255, 229,169);
+}
+
+/* ХЕДЕР */
+.header {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex; /* в рядок */
+	align-items: center; /* вертикально по центру */
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none; /* прибрали маркери */
+	font-family: Verdana;
+}
+
+.menu a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a:hover {
+	color: violet;
+}
+
+.menu a.active {
+	color: purple;
+}
+
+.logo {
+	margin-right: 150px;
+}
+
+/* Головна */
+.main {
+	width: 1000px;
+	margin: 0 auto; /* центрування по горизонталі для мейну */
+	padding-top: 100px;
+	text-align: left;
+}
+
+.title {
+	color: white;
+	font-family: Verdana;
+	font-size: 40px;
+}
+
+.subtitle {
+	color: white;
+	font-family: Verdana;
+}
+
+.main-img {
+	float: right;
+}
+
+/* КНОПКА */
+.button {
+	width: 140px;
+	height: 60px;
+	font-family: Verdana;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: white;
+	border: 4px double purple;
+}
+
+.button:hover {
+	border: 4px double white;
+	background-color: transparent;
+}
+
+.button a {
+	text-decoration: none;
+	color: purple;
+}
+
+/* ТОВАРИ */
+.tovars {
+	text-align: center;	
+}
+
+.tovars-title {
+	margin-top: 0;
+}
+
+.tovars-subtitle {
+	color: grey;
+}
+
+.tovars ul {
+	padding-left: 0;	
+}
+
+.tovars h3 {
+	color: grey;
+}
+
+.price {
+	color: #a967d5;
+}
+
+/* ПРО НАС */
+.about {
+	background-color: white;
+	min-height: 640px;
+}
+
+.about img {
+	float: left;
+	padding: 40px;
+	margin-right: 40px;
+}
+
+.about-title {
+	margin-top: 0;
+	font-size: 40px;
+	padding-top: 120px;
+}
+
+.text {
+	color: grey;
+}
+
+/* Контакти */
+
+.contact {
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 1200px;
+}
+
+.map {
+	width: 200px;
+	height: 120px;
+	float: left;
+	border: 3px solid violet;
+	margin-right: 50px;
+}
+
+.info {
+	height: 120px;
+	color: white;
+}
+
+.stul {
+ 	font-family: cursive;
+}    
+
+.tovar {
+    background-color: white;
+}
+
+.ananas {
+    background-color: white;	
+}
+
+.canvos {
+	color: black;
+	
+}
+
+.video {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	color: grey;
+	font-size: 50px;
+}
